@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class GameByAge {
-    @Test
-    public void SortStudents() {
+    public static  void main(String[] args)
+     {
         char ch = 'A';
         int arr[] = {18, 20, 21, 21, 23};
         HashMap<Character, List<Integer>> hm = new HashMap();
